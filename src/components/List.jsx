@@ -4,7 +4,7 @@ var ListItem = require('./ListItem.jsx');
 var List = React.createClass({
 	render: function() {
 		
-		var createItem = functio(text, index) {
+		var createItem = function(text, index) {
 			return <ListItem key={index + text} text={text} />;
 		};
 
